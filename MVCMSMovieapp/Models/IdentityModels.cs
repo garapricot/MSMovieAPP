@@ -28,5 +28,7 @@ namespace MVCMSMovieapp.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<MVCMSMovieapp.Models.Movie> Movies { get; set; }
     }
 }
